@@ -5,7 +5,6 @@ import com.company.leave.model.LeaveBalance;
 
 
  // Used to fetch leave balance of an employee.
-
 public interface LeaveBalanceRepository
         extends JpaRepository<LeaveBalance, String> {
 }
